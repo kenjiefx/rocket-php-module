@@ -25,6 +25,11 @@ class Request extends Parser
         return $this->factory->query();
     }
 
+    public function file()
+    {
+        return $this->factory->files();
+    }
+
     public function payload(
         string $payload = null
         )

@@ -7,7 +7,7 @@ try {
     $path = ROOT.'/.env';
 
     if (!is_readable($path)) {
-        throw new \core\exceptions\ConfigurationError();
+        throw new \core\exceptions\ConfigurationErrorException();
     }
 
     $lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);

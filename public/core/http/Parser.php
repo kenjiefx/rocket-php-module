@@ -58,7 +58,12 @@ class Parser {
         )
     {
         foreach ($data as $key => $value) {
-            $object->$key = htmlspecialchars($value);
+            if (is_string($value)) {
+                $object->$key = htmlspecialchars($value);
+            }
+            if (is_array($value)) {
+              $object->$key = $value;
+            }
         }
     }
 
