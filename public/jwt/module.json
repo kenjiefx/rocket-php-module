@@ -1,0 +1,1 @@
+{"author":"rocketPHP","dirs":["modules\/jwt"],"files":{"modules\/jwt\/Generator.php":"\/Generator.php","modules\/jwt\/JWTAbstract.php":"\/JWTAbstract.php","modules\/jwt\/Token.php":"\/Token.php","modules\/jwt\/Validator.php":"\/Validator.php","modules\/jwt\/module.json":"\/module.json"}}
